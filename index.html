@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,18 +8,51 @@
     <title>ATVDD 15</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
+
 <body>
-<div id="corpo">
+    <div id="corpo">
+        <div id="cor">
+
+        <div id="cartao">
+
+            <h1>Cartão de Visitas</h1>
+
+            <p id="dados">Preencha os dados abaixo para criar seu cartão de visitar virtual</p>
+        </div>
+
+            <div>
+
+                <label>Nome:</label>
+                <input id="nome">
+
+                <label> Sobrenome:</label>
+                <input id="sbnm"><br><br>
+
+                <label>Telefone:</label>
+                <input id="fone">
+
+                <label>Profissão: </label>
+                <input id="profi"><br><br>
+
+                <label>Email:</label>
+                <input id="email"><br><br>
+
+                <button onclick="cartao()">Montar cartao</button>
+            </div>
+        </div>
+
+            <div id="primeiro">
+             
+                <h1 id="nome2"></h1>
+                
+                <p id="cllfone"></p>
+                <p id="profissao2"></p>
+                <p id="email2"></p>
+            </div>
+        </div>
 
 
-   <div>
-    Nome:  <input id="nome">
-    Sobrenome:  <input id="sbnm"><br><br>
-    Telefone:  <input id="fone">
-    Profissão: <input id="profi"><br><br>
-    Email: <input id="email"><br><br>
-    <a href="cartao.html"><button>Criar Cartão</button></a>
-</div>
-</div>
+<script src="app.js"></script>
 </body>
+
 </html>
